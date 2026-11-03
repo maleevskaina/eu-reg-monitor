@@ -90,7 +90,7 @@ class Store:
             return None
         return {"run_at": row["run_at"], "new_items": row["new_items"], "statuses": json.loads(row["statuses"])}
 
-    def recent(self, limit: int = 300) -> list[dict]:
+    def recent(self, limit: int = 2000) -> list[dict]:
         rows = self.conn.execute(
             "SELECT * FROM items ORDER BY published DESC, first_seen DESC LIMIT ?", (limit,)
         ).fetchall()
