@@ -1,0 +1,19 @@
+# Public EU regulatory feeds monitored by regmon.
+# `fixture` is the offline copy used by tests and `--offline` demo runs.
+sources:
+  - id: edpb
+    name: European Data Protection Board
+    url: https://www.edpb.europa.eu/feed/news_en
+    fixture: edpb.xml
+  - id: edps
+    name: European Data Protection Supervisor
+    url: https://www.edps.europa.eu/feed/news_en
+    fixture: edps.xml
+  - id: europarl
+    name: European Parliament – Press releases
+    url: https://www.europarl.europa.eu/rss/doc/press-releases/en.xml
+    fixture: europarl.xml
+  - id: noyb
+    name: noyb – European Center for Digital Rights
+    url: https://noyb.eu/en/rss
+    fixture: noyb.xml

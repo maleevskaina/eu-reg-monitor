@@ -1,0 +1,20 @@
+# Keyword rules for tagging items by regulatory area.
+# `terms` match case-insensitively on word boundaries.
+# `acronyms` match case-sensitively on word boundaries, so "AI" does not match "said"
+# and "DSA" does not match "dsa" inside another word.
+areas:
+  AI:
+    terms: [artificial intelligence, AI Act, machine learning, algorithmic, generative, foundation model, general-purpose AI, chatbot, deepfake, automated decision]
+    acronyms: [AI, GPAI, LLM]
+  Privacy:
+    terms: [data protection, personal data, privacy, cookie, data transfer, surveillance, data breach, consent, supervisory authority, adequacy decision]
+    acronyms: [GDPR, EDPB, EDPS, DPA, DPO]
+  Competition:
+    terms: [antitrust, competition, merger, cartel, Article 101, Article 102, Digital Markets Act, gatekeeper, state aid, abuse of dominance, fine]
+    acronyms: [DMA]
+  IP:
+    terms: [copyright, patent, trademark, trade mark, intellectual property, design right, piracy, licensing, text and data mining]
+    acronyms: [EUIPO, SEP, TDM, IPR]
+  Platforms & E-commerce:
+    terms: [Digital Services Act, online platform, e-commerce, marketplace, consumer protection, online sales, content moderation, minors online, dark patterns]
+    acronyms: [DSA, VLOP, VLOPs]
