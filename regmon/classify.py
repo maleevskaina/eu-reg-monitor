@@ -54,10 +54,29 @@ def classify_text(text: str, matchers: list[AreaMatcher]) -> list[str]:
     return areas or [OTHER]
 
 
+def _item_text(title: str, summary: str) -> str:
+    # Title counts double: it is the strongest signal of what the item is about.
+    return f"{title} {title} {summary}"
+
+
 def classify(items: list[Item], rules: dict[str, dict]) -> list[Item]:
     matchers = build_matchers(rules)
     for item in items:
-        # Title counts double: it is the strongest signal of what the item is about.
-        text = f"{item.title} {item.title} {item.summary}"
-        item.areas = classify_text(text, matchers)
+        item.areas = classify_text(_item_text(item.title, item.summary), matchers)
     return items
+
+
+def reclassify_store(store, rules: dict[str, dict]) -> int:
+    """Re-tag every stored item with the current rules, so rule edits apply to history too.
+
+    Returns the number of items whose tags changed.
+    """
+    matchers = build_matchers(rules)
+    updates = {}
+    for item_id, title, summary, old in store.iter_texts():
+        new = classify_text(_item_text(title, summary), matchers)
+        if new != old:
+            updates[item_id] = new
+    if updates:
+        store.set_areas(updates)
+    return len(updates)

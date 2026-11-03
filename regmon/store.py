@@ -64,6 +64,18 @@ class Store:
                     new.append(item)
         return new
 
+    def iter_texts(self):
+        """Yield (id, title, summary, areas) for every stored item."""
+        for row in self.conn.execute("SELECT id, title, summary, areas FROM items"):
+            yield row["id"], row["title"], row["summary"], json.loads(row["areas"])
+
+    def set_areas(self, updates: dict[str, list[str]]) -> None:
+        with self.conn:
+            self.conn.executemany(
+                "UPDATE items SET areas = ? WHERE id = ?",
+                [(json.dumps(areas), item_id) for item_id, areas in updates.items()],
+            )
+
     def record_run(self, new_items: int, statuses: list[SourceStatus], now: str | None = None) -> None:
         now = now or datetime.now(timezone.utc).isoformat(timespec="seconds")
         with self.conn:

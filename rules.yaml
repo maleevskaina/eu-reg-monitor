@@ -10,7 +10,8 @@ areas:
     terms: [data protection, personal data, privacy, cookie, data transfer, surveillance, data breach, consent, supervisory authority, adequacy decision]
     acronyms: [GDPR, EDPB, EDPS, DPA, DPO]
   Competition:
-    terms: [antitrust, competition, merger, cartel, Article 101, Article 102, Digital Markets Act, gatekeeper, state aid, abuse of dominance, fine]
+    # Not "fine": on real data most fines are GDPR fines, which tagged privacy news as Competition.
+    terms: [antitrust, competition law, competition authority, merger, cartel, Article 101, Article 102, Digital Markets Act, gatekeeper, state aid, abuse of dominance, dominant position]
     acronyms: [DMA]
   IP:
     terms: [copyright, patent, trademark, trade mark, intellectual property, design right, piracy, licensing, text and data mining]

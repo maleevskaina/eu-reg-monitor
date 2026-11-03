@@ -58,3 +58,24 @@ def test_classify_sets_areas_on_items(sources, rules, fixtures_dir):
     assert by_title["Debate on Digital Markets Act gatekeeper compliance"][0] == "Competition"
     assert by_title["Agriculture committee approves budget amendments"] == [OTHER]
     assert by_title["Plenary meeting agenda published"] == [OTHER]
+
+
+def test_gdpr_fines_are_not_competition(matchers):
+    # Regression from the first live run: "fine" used to be a Competition keyword,
+    # which tagged GDPR enforcement news as Competition.
+    areas = classify_text("Dutch DPA fines Uber for unlawful processing of personal data; "
+                          "Decision: Administrative fine", matchers)
+    assert areas == ["Privacy"]
+
+
+def test_reclassify_store_applies_rule_changes_to_history(rules):
+    from regmon.classify import reclassify_store
+    from regmon.models import Item
+    from regmon.store import Store
+
+    s = Store(":memory:")
+    s.add_items([Item("https://e.org/1", "DPA fines company under the GDPR", "", "2026-11-01",
+                      "x", "X", ["Privacy", "Competition"])])  # stale tags from old rules
+    assert reclassify_store(s, rules) == 1
+    assert s.recent()[0]["areas"] == ["Privacy"]
+    assert reclassify_store(s, rules) == 0  # idempotent

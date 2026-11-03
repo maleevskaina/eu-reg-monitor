@@ -11,7 +11,7 @@ import sys
 from pathlib import Path
 
 from . import __version__
-from .classify import classify
+from .classify import classify, reclassify_store
 from .config import ROOT, load_rules, load_sources
 from .ingest import ingest
 from .render import render
@@ -37,6 +37,7 @@ def cmd_run(args) -> int:
 
     store = Store(db)
     new = store.add_items(items)
+    retagged = reclassify_store(store, rules)
     store.record_run(len(new), statuses)
     page = render(store, Path(out), list(rules), offline=args.offline)
 
@@ -46,6 +47,8 @@ def cmd_run(args) -> int:
         detail = f"{s.items} items" if s.ok else s.error
         print(f"  [{mark}] {s.name:<45} {detail}")
     print(f"Fetched {len(items)} items, {len(new)} new, {store.count()} stored in total.")
+    if retagged:
+        print(f"Re-tagged {retagged} stored items after a rules change.")
     for item in new[:10]:
         print(f"  + [{', '.join(item.areas)}] {item.title[:90]}")
     print(f"Dashboard written to {page}")
