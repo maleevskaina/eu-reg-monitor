@@ -1,5 +1,5 @@
 {
- "generated_at": "03 Nov 2026, 08:12 UTC",
+ "generated_at": "03 Nov 2026, 08:13 UTC",
  "items": [
   {
    "id": "c699e2cecab92b1b",
@@ -3916,6 +3916,58 @@
    "title": "“Pay or Okay” bei derStandard.at?",
    "summary": "Guest commentary by Max Schrems in ‘Der Standard’ (an Austrian newspaper) to the subscription type ‘PUR-Abo’ by DerStandard.at ‘Would you like to have a bit more privacy? – Then you have to pay € 6 per month’ From Vienna to Berlin to Brussels, many experts and lawyers responded with disbelief to a decision of the Data Protection Authority (DSB) this week. ‘,Pay, or give up basic rights’ is not…",
    "published": "2018-12-10",
+   "source_id": "noyb",
+   "source_name": "noyb – European Center for Digital Rights",
+   "areas": [
+    "Privacy"
+   ],
+   "first_seen": "2026-11-03T08:10:38+00:00"
+  },
+  {
+   "id": "57f956d27bed8f18",
+   "url": "https://noyb.eu/en/test-cases-freedom-exercise-gdpr-rights-any-format",
+   "title": "Test Cases On Freedom To Exercise GDPR Rights In Any Format",
+   "summary": "Many controllers reacted to GDPR with automated systems. While this may be effective and helpful in many cases, there is a tendency that controllers limit the options of data subjects to express their rights to certain „requests“ – that may not always be in the interest of the data subject. Many forms of automated requests are also extremely complicated or not useable in practice.",
+   "published": "2018-12-08",
+   "source_id": "noyb",
+   "source_name": "noyb – European Center for Digital Rights",
+   "areas": [
+    "Privacy"
+   ],
+   "first_seen": "2026-11-03T08:10:38+00:00"
+  },
+  {
+   "id": "1b17142932ed19b2",
+   "url": "https://noyb.eu/en/our-director-max-schrems-60-minutes-cbs-show",
+   "title": "Our director Max Schrems on 60 Minutes (a CBS show)",
+   "summary": "On November 11th, 2018 our director Max Schrems was on 60Minutes (the Sunday night TV program on CBS), trying to explain the good and the bad of GDPR and how we try to enforce it in practice! Link: https://www.cbsnews.com/video/gdpr-the-law-that-lets-europeans-take-back-their-data-from-big-tech-companies-60-minutes/",
+   "published": "2018-11-12",
+   "source_id": "noyb",
+   "source_name": "noyb – European Center for Digital Rights",
+   "areas": [
+    "Privacy"
+   ],
+   "first_seen": "2026-11-03T08:10:38+00:00"
+  },
+  {
+   "id": "dbbd1e35c4e078d6",
+   "url": "https://noyb.eu/en/submission-austrian-federal-administrative-court-bvwg",
+   "title": "Submission at the Austrian Federal Administrative Court (BVwG)",
+   "summary": "noyb represents a customer of an Austrian bank, who wanted access to his bank account details – but was denied access. The Austrian DPA has decided in favor of the customer, but the bank appealed to the Federal Administrative Court (BVwG). In essence the bank argued, that the (free) right to access under GDPR is overridden by banking regulations that allow banks to charge extra fees for any…",
+   "published": "2018-10-16",
+   "source_id": "noyb",
+   "source_name": "noyb – European Center for Digital Rights",
+   "areas": [
+    "Privacy"
+   ],
+   "first_seen": "2026-11-03T08:10:38+00:00"
+  },
+  {
+   "id": "3c1669505a992368",
+   "url": "https://noyb.eu/en/noybeu-filed-complaints-over-forced-consent-against-google-instagram-whatsapp-and-facebook",
+   "title": "noyb.eu filed complaints over “forced consent” against Google, Instagram, WhatsApp and Facebook",
+   "summary": "Forced Consent & Consent Bypass Privacy à la “take it or leave it”? The new General Data Protection Regulation (GDPR) which came into force today at midnight is supposed to give users a free choice, whether they agree to data usage or not. The opposite feeling spread on the screens of many users: tons of “consent boxes” popped up online or in applications, often combined with a threat that the…",
+   "published": "2018-05-25",
    "source_id": "noyb",
    "source_name": "noyb – European Center for Digital Rights",
    "areas": [
