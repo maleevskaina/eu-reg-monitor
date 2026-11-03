@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SYNTHETIC TEST FIXTURE: invented sample items for offline tests. Not real news. -->
+<rss version="2.0">
+<channel>
+  <title>EDPB (test fixture)</title>
+  <link>https://example.org/edpb</link>
+  <item>
+    <title>Board adopts statement on GDPR enforcement cooperation</title>
+    <link>https://example.org/edpb/news/gdpr-cooperation</link>
+    <description>&lt;p&gt;The Board adopted a statement on cross-border cooperation between supervisory authorities under the &lt;b&gt;GDPR&lt;/b&gt;.&lt;/p&gt;</description>
+    <pubDate>Mon, 02 Nov 2026 10:00:00 +0100</pubDate>
+  </item>
+  <item>
+    <title>Opinion on personal data in AI model training</title>
+    <link>https://example.org/edpb/news/ai-models?utm_source=rss</link>
+    <description>The opinion addresses when AI models trained on personal data can be considered anonymous.</description>
+    <pubDate>Fri, 30 Oct 2026 09:00:00 +0100</pubDate>
+  </item>
+  <item>
+    <title>Opinion on personal data in AI model training</title>
+    <link>https://example.org/edpb/news/ai-models/</link>
+    <description>Duplicate of the previous item with a different URL form, to test deduplication.</description>
+    <pubDate>Fri, 30 Oct 2026 09:00:00 +0100</pubDate>
+  </item>
+  <item>
+    <title>Plenary meeting agenda published</title>
+    <link>https://example.org/edpb/news/plenary</link>
+    <description>The chair said the agenda would be published ahead of the meeting.</description>
+  </item>
+</channel>
+</rss>

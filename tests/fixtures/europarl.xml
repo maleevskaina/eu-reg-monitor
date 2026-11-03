@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SYNTHETIC TEST FIXTURE: invented sample items for offline tests. Not real news. -->
+<rss version="2.0">
+<channel>
+  <title>European Parliament press (test fixture)</title>
+  <link>https://example.org/ep</link>
+  <item>
+    <title>Committee vote on copyright and text and data mining</title>
+    <link>https://example.org/ep/press/copyright-tdm</link>
+    <description>Members voted on a report on copyright, licensing and generative AI.</description>
+    <pubDate>Thu, 29 Oct 2026 16:00:00 +0100</pubDate>
+  </item>
+  <item>
+    <title>Debate on Digital Markets Act gatekeeper compliance</title>
+    <link>https://example.org/ep/press/dma-debate</link>
+    <description>MEPs debated DMA enforcement and competition in digital markets.</description>
+    <pubDate>Wed, 28 Oct 2026 11:00:00 +0100</pubDate>
+  </item>
+  <item>
+    <title>New rules to protect minors online under the Digital Services Act</title>
+    <link>https://example.org/ep/press/dsa-minors</link>
+    <description>Online platform obligations and dark patterns were discussed.</description>
+    <pubDate>Tue, 27 Oct 2026 14:00:00 +0100</pubDate>
+  </item>
+  <item>
+    <title>Agriculture committee approves budget amendments</title>
+    <link>https://example.org/ep/press/agri-budget</link>
+    <description>The committee approved amendments to the agriculture budget.</description>
+    <pubDate>Mon, 26 Oct 2026 10:00:00 +0100</pubDate>
+  </item>
+</channel>
+</rss>

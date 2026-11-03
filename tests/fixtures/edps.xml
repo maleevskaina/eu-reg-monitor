@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SYNTHETIC TEST FIXTURE (Atom format): invented sample items for offline tests. Not real news. -->
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>EDPS (test fixture)</title>
+  <id>https://example.org/edps</id>
+  <updated>2026-11-01T12:00:00Z</updated>
+  <entry>
+    <title>Supervisor issues guidance on data transfers by EU institutions</title>
+    <link href="https://example.org/edps/press/transfers"/>
+    <id>https://example.org/edps/press/transfers</id>
+    <updated>2026-11-01T12:00:00Z</updated>
+    <summary>Guidance for EU institutions on international data transfer safeguards.</summary>
+  </entry>
+  <entry>
+    <title>Speech on supervising generative AI in the public sector</title>
+    <link href="https://example.org/edps/press/genai-speech"/>
+    <id>https://example.org/edps/press/genai-speech</id>
+    <updated>2026-10-28T08:30:00Z</updated>
+    <summary>Remarks on the AI Act and the role of data protection authorities.</summary>
+  </entry>
+</feed>
