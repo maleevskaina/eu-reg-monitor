@@ -1,6 +1,137 @@
 {
- "generated_at": "22 Nov 2026, 13:21 UTC",
+ "generated_at": "23 Nov 2026, 15:59 UTC",
  "items": [
+  {
+   "id": "22caeb072bac9720",
+   "url": "https://www.edpb.europa.eu/news/the-norwegian-data-protection-authority-fines-social-garden-as-for-publishing-personal-data_en",
+   "title": "The Norwegian Data Protection Authority fines Social Garden AS for publishing personal data without a lawful basis",
+   "summary": "Background information Date of final decision: 13/11/2026 Cross-border case One-Stop-Shop Procedure: the decision was taken by national supervisory authorities following the One-Stop-Shop cooperation procedure (OSS) If cross-border, LSA: Norway and CSAs: Sweden, Denmark Controller: Social Garden AS Legal References: Article 6 (Lawfulness of processing), Article 9 (Processing of special…",
+   "published": "2026-11-19",
+   "source_id": "edpb",
+   "source_name": "European Data Protection Board",
+   "areas": [
+    "Privacy"
+   ],
+   "first_seen": "2026-11-23T15:59:06+00:00"
+  },
+  {
+   "id": "cbff67bb564b2777",
+   "url": "https://www.edpb.europa.eu/news/edpb-and-dpas-from-countries-and-organisation-with-eu-adequacy-decision-take-stock-of-progress_en",
+   "title": "EDPB and DPAs from countries and organisation with EU adequacy decision take stock of progress and set 2027 priorities",
+   "summary": "Brussels, 19 November - The EDPB met on 17 November with Commissioners and representatives of the Data Protection Authorities (DPAs) from the countries and the international organisation with an EU adequacy decision. This gathering marked the third of its kind, following the first one in October 2024 and the second one in December 2025. The meeting was an opportunity to discuss the joint…",
+   "published": "2026-11-19",
+   "source_id": "edpb",
+   "source_name": "European Data Protection Board",
+   "areas": [
+    "Privacy"
+   ],
+   "first_seen": "2026-11-23T15:59:06+00:00"
+  },
+  {
+   "id": "6e320c730dd2c2be",
+   "url": "https://www.edpb.europa.eu/news/norwegian-dpa-fines-private-individual-for-credit-check-and-publication-of-personal-data_en",
+   "title": "Norwegian DPA fines private individual for credit check and publication of personal data without a lawful basis",
+   "summary": "Background information Date of final decision: 16/10/2026 National case Controller: Private individual Legal References: Article 6(1) (Lawfulness of processing) Decision: Administrative fine Key words: Legal basis, Fines, GDPR enforcement, Basic principles Summary of the Decision Origin of the case The Data Protection Authority received a complaint from an individual who had been subject to a…",
+   "published": "2026-11-19",
+   "source_id": "edpb",
+   "source_name": "European Data Protection Board",
+   "areas": [
+    "Privacy"
+   ],
+   "first_seen": "2026-11-23T15:59:06+00:00"
+  },
+  {
+   "id": "90375370fe14af47",
+   "url": "https://www.edpb.europa.eu/news/italian-dpa-fines-business-school-eur-8-000-for-unlawful-telemarketing-and-failure-to-handle_en",
+   "title": "Italian DPA fines Business School EUR 8 000 for unlawful telemarketing and failure to handle data subject request",
+   "summary": "Background information Date of final decision: 23/09/2026 Controller: Business School S.r.l. Legal References: Article 5 (Principles relating to processing of personal data), Article 12 (Transparent information, communication and modalities for the exercise of the rights of the data subject), Article 15 (Right to access by the data subject), Article 17 (Right to erasure (‘right to be…",
+   "published": "2026-11-18",
+   "source_id": "edpb",
+   "source_name": "European Data Protection Board",
+   "areas": [
+    "Privacy"
+   ],
+   "first_seen": "2026-11-23T15:59:06+00:00"
+  },
+  {
+   "id": "b185f59079b1fb3b",
+   "url": "https://www.edpb.europa.eu/news/italian-dpa-fines-radiology-centre-and-it-provider-a-combined-eur-28-000-for-exposing-patient_en",
+   "title": "Italian DPA fines radiology centre and IT provider a combined EUR 28 000 for exposing patient health data",
+   "summary": "Background information Date of final decision: 07/10/2026 National case Controller: Centro Radiologico Madonna della Bruna S.r.l. Processor: MedStore Saronno S.r.l. Legal References: Article 5 (Principles relating to processing of personal data), Article 25 (Data protection by design and by default), Article 32 (Security of processing) Decision: Administrative fine Key words: Health and…",
+   "published": "2026-11-18",
+   "source_id": "edpb",
+   "source_name": "European Data Protection Board",
+   "areas": [
+    "Privacy"
+   ],
+   "first_seen": "2026-11-23T15:59:06+00:00"
+  },
+  {
+   "id": "99834fa440c11f2a",
+   "url": "https://www.edpb.europa.eu/news/italian-dpa-fines-meta-eur-805-million-for-unlawful-access-to-facebook-users-photo-galleries_en",
+   "title": "Italian DPA fines Meta EUR 805 million for unlawful access to Facebook users’ photo galleries",
+   "summary": "Background information Date of final decision: 13/11/2026 National case Controller: Meta Platforms Ireland Limited Decision: Administrative fine, Compliance order Key words: Fines, Online platforms Summary of the Decision Origin of the case The Italian Data Protection Authority (DPA) launched an investigation following a complaint submitted in July 2025 by the Bolzano Consumer Protection Centre…",
+   "published": "2026-11-18",
+   "source_id": "edpb",
+   "source_name": "European Data Protection Board",
+   "areas": [
+    "Privacy",
+    "Platforms & E-commerce"
+   ],
+   "first_seen": "2026-11-23T15:59:06+00:00"
+  },
+  {
+   "id": "2716ce3d71075fa9",
+   "url": "https://www.edpb.europa.eu/news/italian-dpa-fines-a-company-eur-25-500-over-employee-access-rights-and-corporate-email_en",
+   "title": "Italian DPA fines a company EUR 25 500 over employee access rights and corporate email accounts",
+   "summary": "Background information Date of final decision: 20/10/2026 National case Controller: Techpartner S.r.l. Legal References: Article 5 (Principles relating to processing of personal data), Article 12 (Transparent information, communication and modalities for the exercise of the rights of the data subject), Article 15 (Right to access by the data subject), Decision: Administrative fine, Compliance…",
+   "published": "2026-11-18",
+   "source_id": "edpb",
+   "source_name": "European Data Protection Board",
+   "areas": [
+    "Privacy"
+   ],
+   "first_seen": "2026-11-23T15:59:06+00:00"
+  },
+  {
+   "id": "65e9cbdf47fc9007",
+   "url": "https://www.edpb.europa.eu/news/irish-data-protection-commission-fines-mtch-eur-11-million-following-inquiry-into-tinder-users_en",
+   "title": "Irish Data Protection Commission fines MTCH EUR 11 million following Inquiry into Tinder users’ personal data requests",
+   "summary": "Background information Date of final decision: 13/11/2026 National case Controller: MTCH Technology Services Limited (“MTCH”) Legal References: Article 15 (Right to access by the data subject) Decision: Administrative fine, Compliance order Key words: GDPR enforcement, Technology, Accountability, Data subjects rights, Fines Summary of the Decision Origin of the case The Data Protection…",
+   "published": "2026-11-17",
+   "source_id": "edpb",
+   "source_name": "European Data Protection Board",
+   "areas": [
+    "Privacy"
+   ],
+   "first_seen": "2026-11-23T15:59:06+00:00"
+  },
+  {
+   "id": "48dbd3a8c2fb7cf1",
+   "url": "https://www.edpb.europa.eu/news/edpb-supports-use-of-other-models-of-contractual-clauses-for-onward-transfers-of-personal-data_en",
+   "title": "EDPB supports use of other models of contractual clauses for onward transfers of personal data",
+   "summary": "Brussels 13 November – At its latest plenary, the EDPB adopted a statement on the use of other models of contractual clauses for onward transfers of personal data *. The statement welcomes recent updates made by the European Commission on its FAQs on the EU Standard Contractual Clauses (SCCs) **, recognising that the Model Contractual Clauses (MCCs) developed by the Council of Europe (CoE MCC)…",
+   "published": "2026-11-13",
+   "source_id": "edpb",
+   "source_name": "European Data Protection Board",
+   "areas": [
+    "Privacy"
+   ],
+   "first_seen": "2026-11-23T15:59:06+00:00"
+  },
+  {
+   "id": "898dc5aec7285d16",
+   "url": "https://www.edpb.europa.eu/news/edpb-adopts-statement-on-review-of-the-republic-of-korea-adequacy-processor-bcr_en",
+   "title": "EDPB adopts statement on review of the Republic of Korea adequacy, processor BCR recommendations, and selects topic for 2027 coordinated enforcement action",
+   "summary": "Brussels, 11 November – During its latest plenary, the EDPB has adopted a statement on the first review of the functioning of the adequacy decision of the Republic of Korea and the final version of the recommendations on the application for approval and on the elements and principles to be found in Processor Binding Corporate Rules (BCR-P). In addition, the Board selected the topic for its sixth…",
+   "published": "2026-11-11",
+   "source_id": "edpb",
+   "source_name": "European Data Protection Board",
+   "areas": [
+    "Privacy"
+   ],
+   "first_seen": "2026-11-23T15:59:06+00:00"
+  },
   {
    "id": "c699e2cecab92b1b",
    "url": "https://noyb.eu/en/noyb-win-french-electronics-retailer-fnac-darty-fined-eu7-million",
